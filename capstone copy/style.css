@@ -1,0 +1,458 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size:  1.8rem;
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+}
+
+p {
+  font-size: .9rem;
+  color: rgb(74, 74, 74);
+}
+
+h2 {
+  color: rgb(74, 74, 74);
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(74, 74, 74);
+  margin: 0;
+}
+
+.thumbnail .copy p {
+  font-weight: 200;
+  color: rgb(74, 74, 74);
+  padding-bottom: .5rem;
+  line-height: normal;
+}
+
+a.read-more {
+  color: dodgerblue;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+#first_button {
+  background-color: rgb(74, 74, 74);
+  color: white;
+  padding: 8px 105px;
+  border-radius: 5px;
+  font-size: .9rem;
+  text-decoration: none;
+  transition: background-color .3s linear;
+}
+
+#first_button:hover {
+  background-color: black;
+}
+
+#header-mobile {
+  display: none;
+}
+
+#header-desktop #colmar {
+  font-weight: 700;
+  color: black;
+}
+
+#header-desktop #academy {
+  font-weight: 300;
+  color: grey;
+}
+
+#header-desktop {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+#header-desktop ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+#header-desktop li {
+  padding-left: 1rem;
+  font-size: .8rem;
+}
+
+.copy {
+  padding-left: 16px;
+  line-height: .8rem;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.main-column {
+  flex: 6 6;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.main-column img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.side-column {
+  flex: 4 4;
+}
+
+#Section_one {
+  background-color: gainsboro;
+}
+
+#Section_one .main-column {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 40px;
+}
+
+#Section_one .main-image {
+  background-image: url(./images/banner.jpg);
+  height: 180px;
+  background-size: cover;
+  display: none;
+}
+
+.thumbnail {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.thumbnail .image {
+  flex: 3.5;
+}
+
+.thumbnail .image img {
+  display: block;
+  width: 100%;
+}
+
+.thumbnail .copy {
+  flex: 6.5;
+}
+
+#Section_one .side-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#Section_one h1 {
+  margin-top: 0;
+}
+
+#Section_one .banner_copy1 p {
+  margin-bottom: 2.4rem;
+}
+
+#Section_two .two-columns {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#Section_two .side-column {
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+.thumbnail .copy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.thumbnail.last {
+  background-color: gainsboro;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.thumbnail img.mobile {
+  display: none;
+}
+
+.thin {
+  font-weight: 200;
+}
+
+.banner_copy2 h6 {
+  font-weight: 400;
+}
+
+#Section_three {
+  background-color: rgb(234, 235, 236);
+  padding: 32px;
+}
+
+#Section_three h1 {
+  margin-top: 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#Section_three .course_model {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+}
+
+#Section_three .course_model .course {
+  width: 30%;
+  background-color: white;
+  margin-bottom: 16px;
+}
+
+#Section_three img {
+  width: 100%;
+  display: block;
+}
+
+#Section_three .course .copy {
+  padding: 16px 24px 24px 16px;
+}
+
+#Section_three .course .copy h2 {
+  color: rgb(74, 74, 74);
+}
+
+#Section_three .course .copy p {
+  font-weight: 200;
+  line-height: 1.2rem;
+  color: grey;
+}
+
+#Section_four .thesis {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 32px;
+}
+
+#Section_four video {
+  width: 100%;
+}
+
+#Section_four .side-column {
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+#Section_four .thumbnail.first {
+  background-color: gainsboro;
+  padding: 16px;
+  color: rgb(74, 74, 74);
+}
+
+#Section_four .thumbnail {
+  color: rgb(74, 74, 74);
+}
+
+#copyright {
+  margin-top: 0;
+  flex-grow: 1;
+  }
+
+footer {
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: flex-start;
+  padding: 18px 24px 32px 18px;
+}
+
+footer a, footer p {
+  font-weight: 200;
+  font-size: .8rem;
+  color: rgb(74, 74, 74);
+}
+
+footer a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+  #header-desktop {
+    display: none;
+  }
+  #header-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+  }
+
+  #Section_one {
+    flex-direction: column;
+  }
+
+  #Section_one .main-column {
+    margin: 0;
+  }
+
+  #Section_one img {
+    height: 180px;
+  }
+
+  #Section_one .main-image {
+    display: block;
+  }
+
+  #Section_one .main-column img {
+    display: none;
+  }
+
+  #Section_one .side-column h1 {
+    padding: 32px 20px 32px 16px;
+    margin: 0;
+  }
+
+  #Section_one .side-column p {
+    padding: 0 20px 24px 16px;
+    margin: 0;
+  }
+
+  #first_button {
+    margin-bottom: 32px;
+  }
+  #Section_one .side-column {
+    align-items: center;
+  }
+
+  #Section_two {
+    margin-bottom: 16px;
+  }
+
+  #Section_two .main-column {
+    display: none;
+  }
+
+  .thumbnail {
+    flex-direction: column;
+  }
+
+  .thumbnail img.mobile {
+    display: block;
+  }
+
+  .thumbnail img.desktop {
+    display: none;
+  }
+
+  #Section_two .side-column {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .thumbnail .copy {
+    margin: 24px 24px 16px 16px;
+    padding-left: 0;
+  }
+
+  .thumbnail.last {
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #Section_three {
+    background-color: transparent;
+    border-top: 1px solid lightgrey;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #Section_three h1 {
+    margin-bottom: 16px;
+  }
+
+  #Section_three img {
+    display: none;
+  }
+
+  #Section_three .course_model {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #Section_three .course_model .course {
+    background-color: rgb(234, 235, 236);
+    width: auto;
+    margin-bottom: 8px;
+  }
+
+  #Section_three .course_model .copy p {
+    display: none;
+  }
+
+  #Section_three .course .copy h2 {
+    margin: 0;
+  }
+
+  #Section_three .course .copy {
+    padding: 16px;
+    font-size: .8rem;
+  }
+  #Section_four {
+    border-top: 1px solid lightgrey;
+  }
+
+  #Section_four h1 {
+    line-height: 1em;
+  }
+
+  #Section_four .side-column {
+    display: none;
+  }
+
+  #Section_four .main-column {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  #Section_four h2, #Section_four p {
+    display: none;
+  }
+  footer {
+    border-top: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  footer a {
+    display: none;
+  }
+  footer p {
+    margin: 0;
+  }
+}
